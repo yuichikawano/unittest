@@ -5,6 +5,8 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
+    "test:updateSnapshot": "jest --updateSnapshot",
+    "test:coverage": "jest --coverage",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
